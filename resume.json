@@ -9,8 +9,8 @@
         "website": "https://donaldrose.roselution.com",
         "summary": "Results-oriented and innovative Senior Software Engineer with DevOps experience. Easily communicates complex technical requirements to non-technical stakeholders. Excellent leadership record of leading development teams in enterprise-wide development projects. Flexible professional with experience developing and building IT solutions.",
         "location": {
-            "address": "1970 Enon Mill Drive SW",
-            "postalCode": "GA 30331",
+            "address": "",
+            "postalCode": "GA",
             "city": "Atlanta",
             "countryCode": "US",
             "region": "Georgia"
@@ -35,6 +35,31 @@
     },
     "work": [
         {
+            "company": "Bivines Group",
+            "position": "CTO",
+            "website": "https://bivinesgroup.com/",
+            "startDate": "2021-04-15",
+            "endDate": "2021-12-31",
+            "summary": "Bivines Group is a business management firm that acquires & develop small businesses.",
+            "highlights": [
+                "Implemented B2B and B2C web components and features responsible for sample orders, analytic reporting, LRM & CEU course completion and certificate generations.",
+                "Analyzed clients request that included content, contract specific products, feature request.",
+                "Collaborated with cross-functional development team members to analyze potential system solutions based on evolving client requirements.",
+                "Built outstanding and dynamic team of software engineers and developers which significantly boosted overall success of organization.",
+                "Created commercial and enterprise websites, apps, emails and CMS templates that adhered to specific brand standards requirements, include content mapping, wire-framing, CMS integration, code guide and maintenance plan.",
+                "Maintained current and in-depth understanding of business processes, needs and objectives.",
+                "Worked with developers and engineers to realize technological solutions.",
+                "Authored development guidelines to expedite application design efforts through ready-made frameworks.",
+                "Customized in-development software to clients' current hardware environments, designing applications to span multiple systems. ",
+                "Contributed heavily to product development lifecycle of both back-end and customer-facing solutions.",
+                "Reviewed business success drivers, applying strategic prioritization to future architectural updates.",
+                "Constructed architecture governance processes, communicating parameters to development staff during adoption training.",
+                "Created migration strategies to bridge development gaps between existing software architecture and future updates.",
+                "Drafted visual representations of software architecture design for presentation to stakeholders.",
+                "Communicated software architecture strategies to senior leadership and third-party business leaders."
+            ]
+        },
+        {
             "company": "Shaw Industries",
             "position": "Senior Developer | System Admin (Architect)",
             "website": "https://shawinc.com/",
@@ -52,22 +77,7 @@
                 "Designed and built automation tools and application that resulted in 90% cost efficiency by migrating and condensing servers in AWS.",
                 "Created procedures for system monitoring, recovery, backup and optimization.",
                 "Worked closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications.",
-                "Managed and Maintained over 300 brand Microsites hosted on various platforms such as AWS, Elastic Beanstalk and Microsoft Azure",
-                "Implemented B2B and B2C web components and features responsible for sample orders, analytic reporting, LRM & CEU course completion and certificate generations.",
-                "Analyzed clients request that included content, contract specific products, feature request.",
-                "Collaborated with cross-functional development team members to analyze potential system solutions based on evolving client requirements.",
-                "Built outstanding and dynamic team of software engineers and developers which significantly boosted overall success of organization.",
-                "Created commercial and enterprise websites, apps, emails and CMS templates that adhered to specific brand standards requirements, include content mapping, wire-framing, CMS integration, code guide and maintenance plan.",
-                "Maintained current and in-depth understanding of business processes, needs and objectives.",
-                "Worked with developers and engineers to realize technological solutions.",
-                "Authored development guidelines to expedite application design efforts through ready-made frameworks.",
-                "Customized in-development software to clients' current hardware environments, designing applications to span multiple systems. ",
-                "Contributed heavily to product development lifecycle of both back-end and customer-facing solutions.",
-                "Reviewed business success drivers, applying strategic prioritization to future architectural updates.",
-                "Constructed architecture governance processes, communicating parameters to development staff during adoption training.",
-                "Created migration strategies to bridge development gaps between existing software architecture and future updates.",
-                "Drafted visual representations of software architecture design for presentation to stakeholders.",
-                "Communicated software architecture strategies to senior leadership and third-party business leaders."
+                "Managed and Maintained over 300 brand Microsites hosted on various platforms such as AWS, Elastic Beanstalk and Microsoft Azure"
             ]
         },
         {
@@ -233,7 +243,7 @@
                 "Home Network Wiring",
                 "Painting",
                 "Workspace Design",
-                "IOT"
+                "IOT - Internet of Things"
             ]
         },
         {
@@ -258,5 +268,6 @@
             "name": "Kinsey Solomon",
             "reference": ""
         }
-    ]
+    ],
+    "meta": { "theme": "mocha-responsive" } 
 }
