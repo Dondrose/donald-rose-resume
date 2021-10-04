@@ -1,0 +1,928 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Donald DeAngelo Rose</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: #393e46;
+    /* background: #f8f8f8; */
+    /* margin: 50px 0 100px; */
+    margin: 0;
+    letter-spacing: .3px;
+    color: #39424B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px; }
+
+h2 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .5px; }
+
+h3 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .4px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+h3.bold {
+    font-weight: 700; }
+
+h4 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+h4.bold {
+    font-weight: 700; }
+
+h5 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11px; }
+h5.italic {
+    font-style: italic; }
+
+h6 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px; }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover, a:hover > i.fa-external-link, .info-tag-container a:hover .fa.fa-external-link {
+    color: #2895F1;
+}
+
+a .fa-external-link {
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+p, li {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: .4px;
+}
+
+blockquote {
+    font-size: 11px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 10px 25px; }
+
+em {
+    color: #999;
+}
+
+ul {
+    margin: 10px 0 0;
+    -webkit-padding-start: 25px;
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+ul.minimal {
+    list-style: none;
+    padding: 0;
+}
+
+ul.minimal li {
+    margin-bottom: 3px;
+    padding-left: 0;
+}
+
+ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+}
+
+ul.two-column li {
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+@page {
+    size: A4;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.keyline {
+    width: 45px;
+    /* margin: 8px 0 10px; */
+    margin: 4px 0 10px;
+    border-top: 1px solid #FF5701;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+.profile-header {
+    width: auto;
+    max-width:  300px;
+    margin-right: 50px;
+}
+*/
+
+/*
+.profile-pic {
+    width: auto;
+    max-width: 800px;
+    margin-right: auto;
+    /* margin-top: -5px; */
+    /* margin-right: 18px; *//*
+}
+*/
+
+.profile-pic img {
+    height: 150px;
+    width: 120px;
+    border-radius: 10%;
+    padding: 2px;
+    border: 2px solid #FF5701;
+    object-fit: scale-down;
+    background: white;
+    float: right;
+}
+
+.summary {
+    margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+    background: #222831;
+    color: #eeeeee;
+    /* width: 612px; */
+    min-height: 792px;
+    display: block;
+    margin: 0 auto;
+    border-top: 10px solid #FF5701;
+    /* padding: 36px 22px 30px 34px; */
+    padding: 50px; /* 50px calc(50px + 10%);*/
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column, .profile-header {
+    float: left;
+    /* width: 160px; */
+    width: 300px;
+    /* margin-right: 20px; */
+    margin-right: 50px;
+    word-wrap: break-word;
+}
+
+.right-column, .profile-pic {
+    width: auto;
+    overflow: hidden;
+    max-width: 850px;
+    /* margin-right: 50px; */
+    margin: 0 auto;
+}
+
+.item {
+    /* margin-bottom: 15px; */
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #393e46;
+}
+
+.item:first-child, .title + .item {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.title {
+    background-color: #393e46;
+}
+
+.title > i {
+    float: left;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.right-column > .container > .title {
+    margin-bottom: 15px;
+}
+
+.gpa {
+    border: 1px solid white;
+    border-radius: 35%;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .page {
+        padding: 35px;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills-container > section > ul > li
+    /*,.languages-container > ul > li */{
+        display: inline;
+    }
+
+    .skills-container > section > ul > li > h6
+    /*,.languages-container > ul > li > h6 */{
+        padding-right: 10px;
+        display: inline;
+    }
+
+    .info-tag-container .info-text {
+        font-size: 14px !important;
+    }
+
+    h3 {
+        font-size: 16px !important;
+    }
+
+    h4 {
+        font-size: 14px !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    .item {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        background: white;
+        color: #000;
+    }
+
+    main {
+        background: white !important;
+        color: black !important;
+    }
+
+    @page {
+        border-top: 2px solid white;
+    }
+
+    .page {
+        color: #000;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 35px 0 35px; /* 35px  35px; */
+        box-shadow: none;
+    }
+
+    .title {
+        background-color: #393e46;
+        color: white
+    }
+
+    .keyline {
+        width: 45px;
+        /* margin: 8px 0 10px; */
+        margin: 4px 0 10px;
+        border-top: 2px solid #FF5701;
+    }
+
+    .page .resume-header,
+    .page .resume-content {
+        padding: 0 35px 0 35px;
+    }
+
+    .container > section {
+        page-break-inside: avoid;
+    }
+
+    .left-column {
+        width: 250px;
+        margin-right: 35px;
+    }
+
+    .left-column .container {
+        page-break-inside: avoid;
+    }
+
+    .fa-external-link {
+        display: none;
+    }
+
+    .gpa {
+        border: 1px solid #393e46;
+        margin-left: 10px;
+    }
+}
+
+/* Components */
+.info-tag-container {
+    margin-bottom: 5px;
+}
+
+.info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-tag-container .fa.fa-map-marker {
+    font-size: 16px;
+}
+
+.info-tag-container .fa.fa-mobile {
+    font-size: 18px;
+}
+
+.info-tag-container .fa.fa-envelope-o {
+    font-size: 12px;
+}
+
+.info-tag-container .fa.fa-desktop {
+    font-size: 11px;
+}
+
+.info-tag-container .fa.fa-external-link {
+    width: auto;
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #999;
+}
+
+.info-tag-container .info-text {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    /* width: 139px; */
+}
+
+.references-container .fa {
+    font-size: 14px;
+}
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header">
+			        <h1 class="display-block">Donald DeAngelo Rose</h1>
+			        <h2 class="display-block">Systems Architecture | Senior Developer</h2>
+			    </div>
+			    <div class="profile-pic">
+			        <img src="https://avatars.githubusercontent.com/u/4620498?v&#x3D;4" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">1970 Enon Mill Drive SW<br/>Atlanta, Georgia GA 30331</h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-envelope"></i>
+					        
+					                <h6 class="info-text">dondrose@gmail.com</h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-mobile-alt"></i>
+					        
+					                <h6 class="info-text">(773) 941-3370</h6>
+					        </div>
+					
+					        <div class="info-tag-container">
+					                    <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="https://donaldrose.roselution.com" target="_blank">
+					                        donaldrose.roselution.com <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					                        <div class="info-tag-container">
+					                                    <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/donalddrose/" target="_blank">
+					                                        in/donalddrose <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div>
+					                         <div class="info-tag-container">
+					                                     <i class="fab fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/Dondrose" target="_blank">
+					                                         Dondrose <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>
+					                         <div class="info-tag-container">
+					                                     <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/donRoselution" target="_blank">
+					                                         donRoselution <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>
+					</div>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Web Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>HTML, CSS, Javascript, jQuery, animations</h6></li>
+					                            <li><h6>Typescript: Angular****, React*, Vue**</h6></li>
+					                            <li><h6>PHP, PHP Composer</h6></li>
+					                            <li><h6>WordPress</h6></li>
+					                            <li><h6>Python, PEP8</h6></li>
+					                            <li><h6>Node, NPM, WebPack, Docker/Kubernetes</h6></li>
+					                            <li><h6></h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>SaaS Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Platform API Integration</h6></li>
+					                            <li><h6>Zapier Management and Development</h6></li>
+					                            <li><h6>User Onboarding Configuration</h6></li>
+					                            <li><h6>Platform Documentation</h6></li>
+					                            <li><h6>Workflow Planning &amp; Design</h6></li>
+					                            <li><h6>Business Pipeline Platform Integration</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Data and Analytics</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Google Analytics 360 Enterprise Development</h6></li>
+					                            <li><h6>Jupyter Notebook &amp; Python API Development</h6></li>
+					                            <li><h6>Analytics Reporting Dashboard Development</h6></li>
+					                            <li><h6>Flexible Presentations Charts, Graphs or Dynamic Spreadsheets</h6></li>
+					                            <li><h6>Analyzing and delivering KPIs from data collection</h6></li>
+					                            <li><h6>Behavioral tracking on digital Platforms</h6></li>
+					                            <li><h6>Platform Data and social integration to FullStory</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Server Architecture</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>cPanel Management &amp; Development</h6></li>
+					                            <li><h6>AWS Cloud Server Management &amp; Developer</h6></li>
+					                            <li><h6>Automation Scripts</h6></li>
+					                            <li><h6>Region or Country specific server configuration</h6></li>
+					                            <li><h6>Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]</h6></li>
+					                            <li><h6>Data Migration and Sync</h6></li>
+					                            <li><h6>Initial Configuration and Documentation</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>DevOps</h3>
+					                        <div class="keyline"></div>
+					                    </div>
+					                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Building, maintaining and scaling infrastructure: Production, Staging, QA, Dev</h6></li>
+					                            <li><h6>AWS Cloud Server Management &amp; Developer</h6></li>
+					                            <li><h6>Automation Scripts</h6></li>
+					                            <li><h6>Region or Country specific server configuration</h6></li>
+					                            <li><h6>Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]</h6></li>
+					                            <li><h6>Data Migration and Sync</h6></li>
+					                            <li><h6>Initial Configuration and Documentation</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					
+					        <ul class="minimal">
+					                <li>
+					                    <h6>English <em class="pull-right ">(Native speaker)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					
+					            <section class="item">
+					                    <h4 class="bold">Home Design Projects</h4>
+					                    <ul class="minimal">
+					                            <li>Home Network Wiring</li>
+					                            <li>Painting</li>
+					                            <li>Workspace Design</li>
+					                            <li>IOT</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Agriculture</h4>
+					                    <ul class="minimal">
+					                            <li>Growing Food</li>
+					                            <li>Lawn Maintenance</li>
+					                            <li>Gardening</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Music</h4>
+					                    <ul class="minimal">
+					                            <li>Fender Electric Guitar</li>
+					                            <li>Ableton DAW</li>
+					                            <li>Audio Engineering &amp; Programming</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                    <i class="fa fas fa-file-alt"></i>
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>
+					            <p class="summary">
+					                Results-oriented and innovative Senior Software Engineer with DevOps experience. Easily communicates complex technical requirements to non-technical stakeholders. Excellent leadership record of leading development teams in enterprise-wide development projects. Flexible professional with experience developing and building IT solutions.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-tie"></i>
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://shawinc.com/" target="_blank">
+					                            Shaw Industries <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">08/2017</span>
+					                            <span class="endDate"> - 04/2021</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Senior Developer | System Admin (Architect)</h4>
+					
+					            <p class="summary">Lead developer for Shaw's commercial division digital assets</p>
+					
+					            <ul>
+					                <li>Worked effectively with cross-functional design teams to create software solutions that elevated client side experience and significantly improved overall functionality and performance.</li>
+					                <li>Monitored automated build and continuous software integration process to drive build/release failure resolution.</li>
+					                <li>Developed, maintained , and designed custom Word press themes for commercial brands.</li>
+					                <li>Wrote code and supported architecture in high-throughput systems on AWS and Microsoft Azure cloud.</li>
+					                <li>Worked closely with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance.</li>
+					                <li>Managed testing cycles, including test plan creation, development of scripts and coordination of user acceptance testing in Clarizen-Prism and Workfront.</li>
+					                <li>Wrote code and supported architecture in Microsoft Visual Studio, Tortoise SVN, Kentico, created a in-house AWS commercial stack that supported various project.</li>
+					                <li>Designed and built automation tools and application that resulted in 90% cost efficiency by migrating and condensing servers in AWS.</li>
+					                <li>Created procedures for system monitoring, recovery, backup and optimization.</li>
+					                <li>Worked closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications.</li>
+					                <li>Managed and Maintained over 300 brand Microsites hosted on various platforms such as AWS, Elastic Beanstalk and Microsoft Azure</li>
+					                <li>Implemented B2B and B2C web components and features responsible for sample orders, analytic reporting, LRM &amp; CEU course completion and certificate generations.</li>
+					                <li>Analyzed clients request that included content, contract specific products, feature request.</li>
+					                <li>Collaborated with cross-functional development team members to analyze potential system solutions based on evolving client requirements.</li>
+					                <li>Built outstanding and dynamic team of software engineers and developers which significantly boosted overall success of organization.</li>
+					                <li>Created commercial and enterprise websites, apps, emails and CMS templates that adhered to specific brand standards requirements, include content mapping, wire-framing, CMS integration, code guide and maintenance plan.</li>
+					                <li>Maintained current and in-depth understanding of business processes, needs and objectives.</li>
+					                <li>Worked with developers and engineers to realize technological solutions.</li>
+					                <li>Authored development guidelines to expedite application design efforts through ready-made frameworks.</li>
+					                <li>Customized in-development software to clients&#x27; current hardware environments, designing applications to span multiple systems. </li>
+					                <li>Contributed heavily to product development lifecycle of both back-end and customer-facing solutions.</li>
+					                <li>Reviewed business success drivers, applying strategic prioritization to future architectural updates.</li>
+					                <li>Constructed architecture governance processes, communicating parameters to development staff during adoption training.</li>
+					                <li>Created migration strategies to bridge development gaps between existing software architecture and future updates.</li>
+					                <li>Drafted visual representations of software architecture design for presentation to stakeholders.</li>
+					                <li>Communicated software architecture strategies to senior leadership and third-party business leaders.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://roselution.com/" target="_blank">
+					                            Roselution <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">01/2013</span>
+					                            <span class="endDate"> - 08/2017</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Technology Consultant</h4>
+					
+					
+					            <ul>
+					                <li>Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.</li>
+					                <li>Worked on e-commerce maintenance and management for client websites.</li>
+					                <li>Collaborated with product managers, testers, and developers to initiate process improvements</li>
+					                <li>Adhered to best practices for software development methodology and web security.</li>
+					                <li>Participated in project development through entire Software Development Lifecycle (SDLC).</li>
+					                <li>Studied user requirements and implemented requirements into solutions.</li>
+					                <li>Designed and implemented web components across new and existing designs.</li>
+					                <li>Maintained website analysis spreadsheet by monitoring activity.</li>
+					                <li>Researched and developed new technology designs.</li>
+					                <li>Investigated multiple threading, concurrency, design patterns and resulting impacts on application concurrency to improve procedures.</li>
+					                <li>Presented projects to marketing department to promote web applications to clients.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://shawinc.com/" target="_blank">
+					                            Nsoromma Schools <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">06/2016</span>
+					                            <span class="endDate"> - 08/2018</span>
+					                </h5>
+					            </div>
+					
+					            <h4>Technology Instructor</h4>
+					
+					
+					            <ul>
+					                <li>Developed tech curriculum for programs with assessments, to facilitate class lessons and measure success.</li>
+					                <li>Instructed sessions that helped build a foundational understanding of basic programming principles.</li>
+					                <li>Setup promotional campaigns to generate more enrollments with the school and programs offered.</li>
+					                <li>Hosted presentations and workshop to enact interest in technology with children and teens.</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container volunteer-container">
+					    <div class="title">
+					            <i class="fa fas fa-hands-helping"></i>
+					        <h3>Volunteer</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.cartersvilleschools.org/" target="_blank">
+					                        Catersville Elementary <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                        <span class="startDate">08/2018</span>
+					                        <span class="endDate"> - 03/2020</span>
+					            </h5>
+					        </div>
+					        <h5>Personal Mentor</h5>
+					
+					        <p class="summary">Mentored at risk youth to help make the adjustments to environment changes.</p>
+					
+					        <ul>
+					            <li>Awarded &#x27;Mentor of the Month&#x27;</li>
+					        </ul>
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="https://www.roseworks.org/" target="_blank">
+					                        RoseWorks <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                        <span class="startDate">01/2016</span>
+					                        <span class="endDate"> - 12/2021</span>
+					            </h5>
+					        </div>
+					        <h5>Technology Instructor</h5>
+					
+					        <p class="summary">Developed and taught weekend programming courses for 4th to 9th graders and adults.</p>
+					
+					        <ul>
+					            <li></li>
+					        </ul>
+					    </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					            <i class="fa fas fa-user-graduate"></i>
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Howard University
+					                </h3>
+					                <h5 class="italic pull-right">
+					                            <span class="startDate">08/2002</span>
+					                            <span class="endDate"> - 12/2008</span>
+					                </h5>
+					            </div>
+					
+					            <h4 class="display-inline">Information Systems and Design Washington, DC</h4>
+					
+					
+					            <ul class="two-column">
+					                <li>Systems Analysis and Design</li>
+					                <li>Advanced Database Management</li>
+					                <li>Algorithm & Data Structures</li>
+					                <li>Project Management</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container awards-container">
+					    <div class="title">
+					            <i class="fa fas fa-award"></i>
+					        <h3>Awards</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Volunteer of the Year
+					                </h3>
+					                <h5 class="italic pull-right">
+					                </h5>
+					            </div>
+					
+					            <h5 class="awarder">Atlanta-Fulton Public Library</h5>
+					
+					            <p class="summary">Awarded fo hosting RoseWorks Coding program through the Atlanta-Fulton Public Library system</p>
+					        </section>
+					</div>
+					<div class="container references-container">
+					    <div class="title">
+					            <i class="fa fas fa-asterisk"></i>
+					        <h3>References</h3>
+					        <div class="keyline"></div>
+					    </div>
+					
+					        <section class="item clearfix">
+					
+					            <h5 class="pull-right"> — Kinsey Solomon</h5>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

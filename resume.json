@@ -1,0 +1,262 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Donald DeAngelo Rose",
+        "label": "Systems Architecture | Senior Developer",
+        "picture": "https://avatars.githubusercontent.com/u/4620498?v=4",
+        "email": "dondrose@gmail.com",
+        "phone": "(773) 941-3370",
+        "website": "https://donaldrose.roselution.com",
+        "summary": "Results-oriented and innovative Senior Software Engineer with DevOps experience. Easily communicates complex technical requirements to non-technical stakeholders. Excellent leadership record of leading development teams in enterprise-wide development projects. Flexible professional with experience developing and building IT solutions.",
+        "location": {
+            "address": "1970 Enon Mill Drive SW",
+            "postalCode": "GA 30331",
+            "city": "Atlanta",
+            "countryCode": "US",
+            "region": "Georgia"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "donalddrose",
+                "url": "https://www.linkedin.com/in/donalddrose/"
+            },
+            {
+                "network": "GitHub",
+                "username": "Dondrose",
+                "url": "https://github.com/Dondrose"
+            },
+            {
+                "network": "Twitter",
+                "username": "donRoselution",
+                "url": "https://twitter.com/donRoselution"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Shaw Industries",
+            "position": "Senior Developer | System Admin (Architect)",
+            "website": "https://shawinc.com/",
+            "startDate": "2017-08-21",
+            "endDate": "2021-04-09",
+            "summary": "Lead developer for Shaw's commercial division digital assets",
+            "highlights": [
+                "Worked effectively with cross-functional design teams to create software solutions that elevated client side experience and significantly improved overall functionality and performance.",
+                "Monitored automated build and continuous software integration process to drive build/release failure resolution.",
+                "Developed, maintained , and designed custom Word press themes for commercial brands.",
+                "Wrote code and supported architecture in high-throughput systems on AWS and Microsoft Azure cloud.",
+                "Worked closely with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance.",
+                "Managed testing cycles, including test plan creation, development of scripts and coordination of user acceptance testing in Clarizen-Prism and Workfront.",
+                "Wrote code and supported architecture in Microsoft Visual Studio, Tortoise SVN, Kentico, created a in-house AWS commercial stack that supported various project.",
+                "Designed and built automation tools and application that resulted in 90% cost efficiency by migrating and condensing servers in AWS.",
+                "Created procedures for system monitoring, recovery, backup and optimization.",
+                "Worked closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications.",
+                "Managed and Maintained over 300 brand Microsites hosted on various platforms such as AWS, Elastic Beanstalk and Microsoft Azure",
+                "Implemented B2B and B2C web components and features responsible for sample orders, analytic reporting, LRM & CEU course completion and certificate generations.",
+                "Analyzed clients request that included content, contract specific products, feature request.",
+                "Collaborated with cross-functional development team members to analyze potential system solutions based on evolving client requirements.",
+                "Built outstanding and dynamic team of software engineers and developers which significantly boosted overall success of organization.",
+                "Created commercial and enterprise websites, apps, emails and CMS templates that adhered to specific brand standards requirements, include content mapping, wire-framing, CMS integration, code guide and maintenance plan.",
+                "Maintained current and in-depth understanding of business processes, needs and objectives.",
+                "Worked with developers and engineers to realize technological solutions.",
+                "Authored development guidelines to expedite application design efforts through ready-made frameworks.",
+                "Customized in-development software to clients' current hardware environments, designing applications to span multiple systems. ",
+                "Contributed heavily to product development lifecycle of both back-end and customer-facing solutions.",
+                "Reviewed business success drivers, applying strategic prioritization to future architectural updates.",
+                "Constructed architecture governance processes, communicating parameters to development staff during adoption training.",
+                "Created migration strategies to bridge development gaps between existing software architecture and future updates.",
+                "Drafted visual representations of software architecture design for presentation to stakeholders.",
+                "Communicated software architecture strategies to senior leadership and third-party business leaders."
+            ]
+        },
+        {
+            "company": "Roselution",
+            "position": "Technology Consultant",
+            "website": "https://roselution.com/",
+            "startDate": "2013-01-01",
+            "endDate": "2017-08-21",
+            "summary": "",
+            "highlights": [
+                "Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.",
+                "Worked on e-commerce maintenance and management for client websites.",
+                "Collaborated with product managers, testers, and developers to initiate process improvements",
+                "Adhered to best practices for software development methodology and web security.",
+                "Participated in project development through entire Software Development Lifecycle (SDLC).",
+                "Studied user requirements and implemented requirements into solutions.",
+                "Designed and implemented web components across new and existing designs.",
+                "Maintained website analysis spreadsheet by monitoring activity.",
+                "Researched and developed new technology designs.",
+                "Investigated multiple threading, concurrency, design patterns and resulting impacts on application concurrency to improve procedures.",
+                "Presented projects to marketing department to promote web applications to clients."
+            ]
+        },
+        {
+            "company": "Nsoromma Schools",
+            "position": "Technology Instructor",
+            "website": "https://shawinc.com/",
+            "startDate": "2016-06-01",
+            "endDate": "2018-08-01",
+            "summary": "",
+            "highlights": [
+                "Developed tech curriculum for programs with assessments, to facilitate class lessons and measure success.",
+                "Instructed sessions that helped build a foundational understanding of basic programming principles.",
+                "Setup promotional campaigns to generate more enrollments with the school and programs offered.",
+                "Hosted presentations and workshop to enact interest in technology with children and teens."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Catersville Elementary",
+            "position": "Personal Mentor",
+            "website": "https://www.cartersvilleschools.org/",
+            "startDate": "2018-08-01",
+            "endDate": "2020-03-01",
+            "summary": "Mentored at risk youth to help make the adjustments to environment changes.",
+            "highlights": [
+                "Awarded 'Mentor of the Month'"
+            ]
+        },
+        {
+            "organization": "RoseWorks",
+            "position": "Technology Instructor",
+            "website": "https://www.roseworks.org/",
+            "startDate": "2016-01-01",
+            "endDate": "2021-12-31",
+            "summary": "Developed and taught weekend programming courses for 4th to 9th graders and adults.",
+            "highlights": [
+                ""
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Howard University",
+            "area": "Washington, DC",
+            "studyType": "Information Systems and Design",
+            "startDate": "2002-08-23",
+            "endDate": "2008-12-31",
+            "gpa": "",
+            "courses": [
+                "Systems Analysis and Design",
+                "Advanced Database Management",
+                "Algorithm & Data Structures",
+                "Project Management"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Volunteer of the Year",
+            "date": "2014-11-01",
+            "awarder": "Atlanta-Fulton Public Library",
+            "summary": "Awarded fo hosting RoseWorks Coding program through the Atlanta-Fulton Public Library system"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML, CSS, Javascript, jQuery, animations",
+                "Typescript: Angular****, React*, Vue**",
+                "PHP, PHP Composer",
+                "WordPress",
+                "Python, PEP8",
+                "Node, NPM, WebPack, Docker/Kubernetes",
+                ""
+            ]
+        },
+        {
+            "name": "SaaS Development",
+            "level": "Master",
+            "keywords": [
+                "Platform API Integration",
+                "Zapier Management and Development",
+                "User Onboarding Configuration",
+                "Platform Documentation",
+                "Workflow Planning & Design",
+                "Business Pipeline Platform Integration"
+            ]
+        },
+        {
+            "name": "Data and Analytics",
+            "level": "Master",
+            "keywords": [
+                "Google Analytics 360 Enterprise Development",
+                "Jupyter Notebook & Python API Development",
+                "Analytics Reporting Dashboard Development",
+                "Flexible Presentations Charts, Graphs or Dynamic Spreadsheets",
+                "Analyzing and delivering KPIs from data collection",
+                "Behavioral tracking on digital Platforms",
+                "Platform Data and social integration to FullStory"
+            ]
+        },
+        {
+            "name": "Server Architecture",
+            "level": "Master",
+            "keywords": [
+                "cPanel Management & Development",
+                "AWS Cloud Server Management & Developer",
+                "Automation Scripts",
+                "Region or Country specific server configuration",
+                "Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]",
+                "Data Migration and Sync",
+                "Initial Configuration and Documentation"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "level": "Master",
+            "keywords": [
+                "Building, maintaining and scaling infrastructure: Production, Staging, QA, Dev",
+                "AWS Cloud Server Management & Developer",
+                "Automation Scripts",
+                "Region or Country specific server configuration",
+                "Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]",
+                "Data Migration and Sync",
+                "Initial Configuration and Documentation"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Home Design Projects",
+            "keywords": [
+                "Home Network Wiring",
+                "Painting",
+                "Workspace Design",
+                "IOT"
+            ]
+        },
+        {
+            "name": "Agriculture",
+            "keywords": [
+                "Growing Food",
+                "Lawn Maintenance",
+                "Gardening"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Fender Electric Guitar",
+                "Ableton DAW",
+                "Audio Engineering & Programming"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Kinsey Solomon",
+            "reference": ""
+        }
+    ]
+}
