@@ -1,273 +1,280 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-    "basics": {
-        "name": "Donald DeAngelo Rose",
-        "label": "Systems Architecture | Senior Developer",
-        "picture": "https://avatars.githubusercontent.com/u/4620498?v=4",
-        "email": "dondrose@gmail.com",
-        "phone": "(773) 941-3370",
-        "website": "https://donaldrose.roselution.com",
-        "summary": "Results-oriented and innovative Senior Software Engineer with DevOps experience. Easily communicates complex technical requirements to non-technical stakeholders. Excellent leadership record of leading development teams in enterprise-wide development projects. Flexible professional with experience developing and building IT solutions.",
-        "location": {
-            "address": "",
-            "postalCode": "GA",
-            "city": "Atlanta",
-            "countryCode": "US",
-            "region": "Georgia"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "donalddrose",
-                "url": "https://www.linkedin.com/in/donalddrose/"
-            },
-            {
-                "network": "GitHub",
-                "username": "Dondrose",
-                "url": "https://github.com/Dondrose"
-            },
-            {
-                "network": "Twitter",
-                "username": "donRoselution",
-                "url": "https://twitter.com/donRoselution"
-            }
-        ]
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Donald DeAngelo Rose",
+    "label": "Software Engineer",
+    "picture": "https://avatars.githubusercontent.com/u/4620498?v=4",
+    "email": "dondrose@gmail.com",
+    "phone": "(773) 941-3370",
+    "website": "https://donaldrose.roselution.com",
+    "summary": "Dynamic and results-driven Software Engineer with a passion for problem-solving and innovation. Proven expertise in the full software development life cycle, from concept to delivery. Strong analytical skills paired with effective communication abilities, ensuring seamless collaboration between technical and non-technical stakeholders. Adept at designing and implementing robust solutions that align with business objectives. Continuously strives for excellence in crafting efficient and scalable software systems.",
+    "location": {
+      "address": "",
+      "postalCode": "GA",
+      "city": "Atlanta",
+      "countryCode": "US",
+      "region": "Georgia"
     },
-    "work": [
-        {
-            "company": "Bivines Group",
-            "position": "CTO",
-            "website": "https://bivinesgroup.com/",
-            "startDate": "2021-04-15",
-            "endDate": "2021-12-31",
-            "summary": "Bivines Group is a business management firm that acquires & develop small businesses.",
-            "highlights": [
-                "Implemented B2B and B2C web components and features responsible for sample orders, analytic reporting, LRM & CEU course completion and certificate generations.",
-                "Analyzed clients request that included content, contract specific products, feature request.",
-                "Collaborated with cross-functional development team members to analyze potential system solutions based on evolving client requirements.",
-                "Built outstanding and dynamic team of software engineers and developers which significantly boosted overall success of organization.",
-                "Created commercial and enterprise websites, apps, emails and CMS templates that adhered to specific brand standards requirements, include content mapping, wire-framing, CMS integration, code guide and maintenance plan.",
-                "Maintained current and in-depth understanding of business processes, needs and objectives.",
-                "Worked with developers and engineers to realize technological solutions.",
-                "Authored development guidelines to expedite application design efforts through ready-made frameworks.",
-                "Customized in-development software to clients' current hardware environments, designing applications to span multiple systems. ",
-                "Contributed heavily to product development lifecycle of both back-end and customer-facing solutions.",
-                "Reviewed business success drivers, applying strategic prioritization to future architectural updates.",
-                "Constructed architecture governance processes, communicating parameters to development staff during adoption training.",
-                "Created migration strategies to bridge development gaps between existing software architecture and future updates.",
-                "Drafted visual representations of software architecture design for presentation to stakeholders.",
-                "Communicated software architecture strategies to senior leadership and third-party business leaders."
-            ]
-        },
-        {
-            "company": "Shaw Industries",
-            "position": "Senior Developer | System Admin (Architect)",
-            "website": "https://shawinc.com/",
-            "startDate": "2017-08-21",
-            "endDate": "2021-04-09",
-            "summary": "Lead developer for Shaw's commercial division digital assets",
-            "highlights": [
-                "Worked effectively with cross-functional design teams to create software solutions that elevated client side experience and significantly improved overall functionality and performance.",
-                "Monitored automated build and continuous software integration process to drive build/release failure resolution.",
-                "Developed, maintained , and designed custom Word press themes for commercial brands.",
-                "Wrote code and supported architecture in high-throughput systems on AWS and Microsoft Azure cloud.",
-                "Worked closely with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability and performance.",
-                "Managed testing cycles, including test plan creation, development of scripts and coordination of user acceptance testing in Clarizen-Prism and Workfront.",
-                "Wrote code and supported architecture in Microsoft Visual Studio, Tortoise SVN, Kentico, created a in-house AWS commercial stack that supported various project.",
-                "Designed and built automation tools and application that resulted in 90% cost efficiency by migrating and condensing servers in AWS.",
-                "Created procedures for system monitoring, recovery, backup and optimization.",
-                "Worked closely with other business analysts, development teams and infrastructure specialists to deliver high availability solutions for mission-critical applications.",
-                "Managed and Maintained over 300 brand Microsites hosted on various platforms such as AWS, Elastic Beanstalk and Microsoft Azure"
-            ]
-        },
-        {
-            "company": "Roselution",
-            "position": "Technology Consultant",
-            "website": "https://roselution.com/",
-            "startDate": "2013-01-01",
-            "endDate": "2017-08-21",
-            "summary": "",
-            "highlights": [
-                "Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.",
-                "Worked on e-commerce maintenance and management for client websites.",
-                "Collaborated with product managers, testers, and developers to initiate process improvements",
-                "Adhered to best practices for software development methodology and web security.",
-                "Participated in project development through entire Software Development Lifecycle (SDLC).",
-                "Studied user requirements and implemented requirements into solutions.",
-                "Designed and implemented web components across new and existing designs.",
-                "Maintained website analysis spreadsheet by monitoring activity.",
-                "Researched and developed new technology designs.",
-                "Investigated multiple threading, concurrency, design patterns and resulting impacts on application concurrency to improve procedures.",
-                "Presented projects to marketing department to promote web applications to clients."
-            ]
-        },
-        {
-            "company": "Nsoromma Schools",
-            "position": "Technology Instructor",
-            "website": "https://shawinc.com/",
-            "startDate": "2016-06-01",
-            "endDate": "2018-08-01",
-            "summary": "",
-            "highlights": [
-                "Developed tech curriculum for programs with assessments, to facilitate class lessons and measure success.",
-                "Instructed sessions that helped build a foundational understanding of basic programming principles.",
-                "Setup promotional campaigns to generate more enrollments with the school and programs offered.",
-                "Hosted presentations and workshop to enact interest in technology with children and teens."
-            ]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Catersville Elementary",
-            "position": "Personal Mentor",
-            "website": "https://www.cartersvilleschools.org/",
-            "startDate": "2018-08-01",
-            "endDate": "2020-03-01",
-            "summary": "Mentored at risk youth to help make the adjustments to environment changes.",
-            "highlights": [
-                "Awarded 'Mentor of the Month'"
-            ]
-        },
-        {
-            "organization": "RoseWorks",
-            "position": "Technology Instructor",
-            "website": "https://www.roseworks.org/",
-            "startDate": "2016-01-01",
-            "endDate": "2021-12-31",
-            "summary": "Developed and taught weekend programming courses for 4th to 9th graders and adults.",
-            "highlights": [
-                ""
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "Howard University",
-            "area": "Washington, DC",
-            "studyType": "Information Systems and Design",
-            "startDate": "2002-08-23",
-            "endDate": "2008-12-31",
-            "gpa": "",
-            "courses": [
-                "Systems Analysis and Design",
-                "Advanced Database Management",
-                "Algorithm & Data Structures",
-                "Project Management"
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Volunteer of the Year",
-            "date": "2014-11-01",
-            "awarder": "Atlanta-Fulton Public Library",
-            "summary": "Awarded fo hosting RoseWorks Coding program through the Atlanta-Fulton Public Library system"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": [
-                "HTML, CSS, Javascript, jQuery, animations",
-                "Typescript: Angular****, React*, Vue**",
-                "PHP, PHP Composer",
-                "WordPress",
-                "Python, PEP8",
-                "Node, NPM, WebPack, Docker/Kubernetes",
-                ""
-            ]
-        },
-        {
-            "name": "SaaS Development",
-            "level": "Master",
-            "keywords": [
-                "Platform API Integration",
-                "Zapier Management and Development",
-                "User Onboarding Configuration",
-                "Platform Documentation",
-                "Workflow Planning & Design",
-                "Business Pipeline Platform Integration"
-            ]
-        },
-        {
-            "name": "Data and Analytics",
-            "level": "Master",
-            "keywords": [
-                "Google Analytics 360 Enterprise Development",
-                "Jupyter Notebook & Python API Development",
-                "Analytics Reporting Dashboard Development",
-                "Flexible Presentations Charts, Graphs or Dynamic Spreadsheets",
-                "Analyzing and delivering KPIs from data collection",
-                "Behavioral tracking on digital Platforms",
-                "Platform Data and social integration to FullStory"
-            ]
-        },
-        {
-            "name": "Server Architecture",
-            "level": "Master",
-            "keywords": [
-                "cPanel Management & Development",
-                "AWS Cloud Server Management & Developer",
-                "Automation Scripts",
-                "Region or Country specific server configuration",
-                "Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]",
-                "Data Migration and Sync",
-                "Initial Configuration and Documentation"
-            ]
-        },
-        {
-            "name": "DevOps",
-            "level": "Master",
-            "keywords": [
-                "Building, maintaining and scaling infrastructure: Production, Staging, QA, Dev",
-                "AWS Cloud Server Management & Developer",
-                "Automation Scripts",
-                "Region or Country specific server configuration",
-                "Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]",
-                "Data Migration and Sync",
-                "Initial Configuration and Documentation"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Native speaker"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Home Design Projects",
-            "keywords": [
-                "Home Network Wiring",
-                "Painting",
-                "Workspace Design",
-                "IOT - Internet of Things"
-            ]
-        },
-        {
-            "name": "Agriculture",
-            "keywords": [
-                "Growing Food",
-                "Lawn Maintenance",
-                "Gardening"
-            ]
-        },
-        {
-            "name": "Music",
-            "keywords": [
-                "Fender Electric Guitar",
-                "Ableton DAW",
-                "Audio Engineering & Programming"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "Kinsey Solomon",
-            "reference": ""
-        }
-    ],
-    "meta": { "theme": "mocha-responsive" } 
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "donalddrose",
+        "url": "https://www.linkedin.com/in/donalddrose/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Dondrose",
+        "url": "https://github.com/Dondrose"
+      },
+      {
+        "network": "Twitter",
+        "username": "donRoselution",
+        "url": "https://twitter.com/donRoselution"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Roselution",
+      "position": "Owner | Software Engineer",
+      "website": "https://roselution.com/",
+      "startDate": "2013-01-01",
+      "endDate": "2024-03-31",
+      "summary": "As a Technology Consultant at Roselution, a dynamic digital agency, I provided top-notch web development services with an in-house CMS, leveraging modern web stacks and frameworks",
+      "highlights": [
+        "Spearheaded web development projects, focusing on e-commerce maintenance and management for client websites, enhancing their online presence.",
+        "Collaborated with product managers, testers, and developers to initiate process improvements, ensuring the delivery of high-quality solutions.",
+        "Adhered to best practices for software development methodology and web security, prioritizing the integrity and security of the digital solutions",
+        "Participated actively in the project development through the entire Software Development Lifecycle (SDLC), ensuring a systematic and comprehensive approach.",
+        "Studied user requirements and translated them into effective solutions, addressing the unique needs of each project.",
+        "Designed and implemented web components across new and existing designs, contributing to visually appealing and functional websites.",
+        "Maintained a website analysis spreadsheet by monitoring activity, utilizing data-driven insights for continuous improvement.",
+        "Conducted research and developed new technology designs, staying at the forefront of industry trends and innovations.",
+        "Researched and developed new technology designInvestigated multiple threading, concurrency, design patterns, and their impacts on application concurrency, improving overall procedural efficiency.",
+        "Presented projects to the marketing department, effectively promoting web applications to clients and stakeholders."
+      ]
+    },
+    {
+      "company": "Bivines Group",
+      "position": "CTO",
+      "website": "https://bivinesgroup.com/",
+      "startDate": "2021-04-15",
+      "endDate": "2021-12-31",
+      "summary": "As the Chief Technology Officer at Bivines Group, a business management firm specializing in the acquisition and development of small businesses, I led a dynamic team of software engineers and developers to drive technological excellence and elevate organizational success.",
+      "highlights": [
+        "Established and nurtured a high-performing team of software engineers and developers, significantly enhancing overall organizational success.",
+        "Designed and developed commercial and enterprise websites, apps, emails, and CMS templates adhering to specific brand standards, encompassing content mapping, wire-framing, CMS integration, code guides, and maintenance plans.",
+        "Maintained an in-depth understanding of business processes, needs, and objectives, collaborating with developers and engineers to implement technological solutions",
+        "Authored development guidelines and frameworks, expediting application design efforts and ensuring adherence to industry best practices.",
+        "Customized in-development software to align with clients' current hardware environments, designing applications for seamless integration across multiple systems.",
+        "Played a pivotal role in the product development lifecycle, contributing to both back-end and customer-facing solutions.",
+        "Reviewed and prioritized strategic architectural updates based on business success drivers, establishing governance processes for effective communication within the development team.",
+        "Crafted migration strategies to bridge development gaps between existing software architecture and future updates, presenting visual representations of software architecture designs to stakeholders and senior leadership.",
+
+        "This revised overview aims to showcase your Android development skills while emphasizing your broader software engineering expertise. Feel free to provide more details for further refinement!"
+      ]
+    },
+    {
+      "company": "Shaw Industries",
+      "position": "Senior Developer | System Admin (Architect)",
+      "website": "https://shawinc.com/",
+      "startDate": "2017-08-21",
+      "endDate": "2021-04-09",
+      "summary": "As the Lead Developer for Shaw's commercial division digital assets, I played a pivotal role in shaping and enhancing software solutions, driving a superior client-side experience and overall functionality across the organization.",
+      "highlights": [
+        "Collaborated seamlessly with cross-functional design teams to create innovative software solutions, significantly improving functionality and performance.",
+        "Monitored and optimized automated build and continuous software integration processes, ensuring swift resolution of build/release failures.",
+        "Developed, maintained, and designed custom WordPress themes for various commercial brands, demonstrating a keen eye for detail and brand consistency.",
+        "Wrote code and supported architecture in high-throughput systems on AWS and Microsoft Azure cloud, contributing to the scalability and robustness of the digital infrastructure.",
+        "Worked closely with software development and testing teams to design and implement robust solutions, meeting client requirements for functionality, scalability, and performance.",
+        "Managed testing cycles, including test plan creation, script development, and coordination of user acceptance testing in Clarizen-Prism and Workfront.",
+        "Utilized Microsoft Visual Studio, Tortoise SVN, and Kentico, creating an in-house AWS commercial stack that supported various projects.",
+        "Designed and implemented automation tools and applications, resulting in a remarkable 90% cost efficiency by migrating and condensing servers in AWS.",
+        "Established procedures for system monitoring, recovery, backup, and optimization, ensuring the reliability and resilience of the digital infrastructure.",
+        "Collaborated closely with business analysts, development teams, and infrastructure specialists to deliver high-availability solutions for mission-critical applications.",
+        "Managed and maintained over 300 brand microsites hosted on various platforms such as AWS, Elastic Beanstalk, and Microsoft Azure."
+      ]
+    },
+    {
+      "company": "Nsoromma Schools",
+      "position": "Technology Instructor",
+      "website": "https://shawinc.com/",
+      "startDate": "2016-06-01",
+      "endDate": "2018-08-01",
+      "summary": "Empowered students with foundational tech knowledge, fostering a passion for technology and innovation.",
+      "highlights": [
+        "Developed a comprehensive tech curriculum, complete with assessments, to facilitate engaging class lessons and measure student success.",
+        "Instructed interactive sessions that built a solid understanding of basic programming principles among students.",
+        "Implemented and managed promotional campaigns, effectively boosting enrollments for the school and its diverse programs.",
+        "Hosted engaging presentations and workshops to cultivate interest in technology among children and teens, inspiring a future generation of tech enthusiasts."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Catersville Elementary",
+      "position": "Personal Mentor",
+      "website": "https://www.cartersvilleschools.org/",
+      "startDate": "2018-08-01",
+      "endDate": "2020-03-01",
+      "summary": "Provided guidance and support as a personal mentor, assisting at-risk youth in navigating and adapting to environmental changes.",
+      "highlights": [
+        "Recognized for outstanding contributions and dedication, awarded 'Mentor of the Month' for impactful mentorship.",
+        "Facilitated workshops and seminars, equipping students with essential life skills and strategies for overcoming adversity.",
+        "Established a positive and nurturing mentor-mentee relationship, fostering personal and academic growth."
+      ]
+    },
+    {
+      "organization": "RoseWorks",
+      "position": "Technology Instructor",
+      "website": "https://www.roseworks.org/",
+      "startDate": "2016-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Played a pivotal role at RoseWorks, a leading Tech Learning Company, in developing and delivering engaging weekend programming courses for diverse audiences, including 4th to 9th graders and adults.",
+      "highlights": [
+        "Designed and created comprehensive courses utilizing languages such as Scratch, Python, HTML, and Javascript, fostering an inclusive and interactive learning environment",
+        "Developed courses on various topics, including 'Intro to Problem Solving,' 'Intro Programming with Scratch and Python,' 'Intro to Video Game Programming,' and 'Intro to Programming via Music.'",
+        "Inspired a passion for technology and coding by providing accessible and fun learning experiences, catering to individuals of all ages and skill levels."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Howard University",
+      "area": "Washington, DC",
+      "studyType": "Information Systems and Design",
+      "startDate": "2002-08-23",
+      "endDate": "2008-12-31",
+      "gpa": "",
+      "courses": [
+        "Systems Analysis and Design",
+        "Advanced Database Management",
+        "Algorithm & Data Structures",
+        "Project Management"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Volunteer of the Year",
+      "date": "2014-11-01",
+      "awarder": "Atlanta-Fulton Public Library",
+      "summary": "Awarded fo hosting RoseWorks Coding program through the Atlanta-Fulton Public Library system"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML, CSS, Javascript, jQuery, animations",
+        "Typescript: Angular****, React*, Vue**",
+        "PHP, PHP Composer",
+        "WordPress",
+        "Python, PEP8",
+        "Node, NPM, WebPack, Docker/Kubernetes",
+        ""
+      ]
+    },
+    {
+      "name": "SaaS Development",
+      "level": "Master",
+      "keywords": [
+        "Platform API Integration",
+        "Zapier Management and Development",
+        "User Onboarding Configuration",
+        "Platform Documentation",
+        "Workflow Planning & Design",
+        "Business Pipeline Platform Integration"
+      ]
+    },
+    {
+      "name": "Data and Analytics",
+      "level": "Master",
+      "keywords": [
+        "Google Analytics 360 Enterprise Development",
+        "Jupyter Notebook & Python API Development",
+        "Analytics Reporting Dashboard Development",
+        "Flexible Presentations Charts, Graphs or Dynamic Spreadsheets",
+        "Analyzing and delivering KPIs from data collection",
+        "Behavioral tracking on digital Platforms",
+        "Platform Data and social integration to FullStory"
+      ]
+    },
+    {
+      "name": "Server Architecture",
+      "level": "Master",
+      "keywords": [
+        "cPanel Management & Development",
+        "AWS Cloud Server Management & Developer",
+        "Automation Scripts",
+        "Region or Country specific server configuration",
+        "Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]",
+        "Data Migration and Sync",
+        "Initial Configuration and Documentation"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Building, maintaining and scaling infrastructure: Production, Staging, QA, Dev",
+        "AWS Cloud Server Management & Developer",
+        "Automation Scripts",
+        "Region or Country specific server configuration",
+        "Server Security [Tokens, SSH Keys, Users, IP, Sites, Database]",
+        "Data Migration and Sync",
+        "Initial Configuration and Documentation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Home Design Projects",
+      "keywords": [
+        "Home Network Wiring",
+        "Painting",
+        "Workspace Design",
+        "IOT - Internet of Things"
+      ]
+    },
+    {
+      "name": "Agriculture",
+      "keywords": ["Growing Food", "Lawn Maintenance", "Gardening"]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Fender Electric Guitar",
+        "Ableton DAW",
+        "Audio Engineering & Programming",
+        "Jazz & Blues",
+        "Music Theory",
+        "Music Production",
+        "Music Composition"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Kinsey Solomon",
+      "reference": "Phone: (770) 912-7544"
+    },
+    {
+      "name": "Brandon L. Norman",
+      "reference": "Email: branorm4@gmail.com, Phone: (980) 207-9811"
+    },
+    {
+      "name": "Raymond Oakley",
+      "reference": "Email: ray_oakley@yahoo.com, Phone: (224) 234-6110"
+    }
+  ],
+
+  "meta": { "theme": "mocha-responsive" }
 }
